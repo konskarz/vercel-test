@@ -1,6 +1,5 @@
 {
-  "name": "fastify",
-  "repository": "https://github.com/vercel/examples.git",
+  "name": "vercel-test",
   "license": "MIT",
   "private": true,
   "type": "module",
