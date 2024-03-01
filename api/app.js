@@ -1,5 +1,5 @@
 export default async function app(fastify, options) {
-  fastify.get('/hello', async (request, reply) => {
+  fastify.get('/', async (request, reply) => {
     return { hello: 'world' }
   })
 }
