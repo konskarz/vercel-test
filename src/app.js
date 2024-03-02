@@ -27,7 +27,7 @@ export default async function app (fastify, options) {
       }
     }
   })
-  fastify.register(import('@scalar/fastify-api-reference'), {
+  fastify.register(import('@fastify/swagger-ui'), {
     routePrefix: '/docs'
   })
 

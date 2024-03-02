@@ -11,10 +11,12 @@
     "@fastify/jwt": "^8.0.0",
     "@fastify/sensible": "^5.5.0",
     "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^3.0.0",
     "@platformatic/sql-mapper": "^1.24.0",
-    "@scalar/fastify-api-reference": "^1.17.15",
     "bcryptjs": "^2.4.3",
-    "fastify": "^4.26.1"
+    "fastify": "^4.26.1",
+    "i": "^0.3.7",
+    "npm": "^10.5.0"
   },
   "devDependencies": {
     "fastify-cli": "^6.1.1",
