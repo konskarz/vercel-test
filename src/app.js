@@ -27,13 +27,6 @@ export default async function app (fastify, options) {
       }
     }
   })
-  // 1.16.0 works - https://github.com/scalar/scalar/issues/1042
-  fastify.register(import('@scalar/fastify-api-reference'), {
-    routePrefix: '/docs',
-    configuration: {
-      theme: 'default' // https://github.com/scalar/scalar/issues/839
-    }
-  })
 
   fastify.register(import('./routes/user.js'))
   fastify.register(async function authenticated (fastify, options) {
