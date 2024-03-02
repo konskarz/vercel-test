@@ -8,9 +8,14 @@
     "dev": "fastify start -w -l info -P src/app.js"
   },
   "dependencies": {
+    "@fastify/jwt": "^8.0.0",
+    "@fastify/sensible": "^5.5.0",
+    "@platformatic/sql-mapper": "^1.24.0",
+    "bcryptjs": "^2.4.3",
     "fastify": "^4.25.2"
   },
   "devDependencies": {
-    "fastify-cli": "^6.1.1"
+    "fastify-cli": "^6.1.1",
+    "standard": "^17.1.0"
   }
 }
