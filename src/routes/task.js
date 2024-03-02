@@ -1,5 +1,5 @@
 /** @param {import('fastify').FastifyInstance} fastify */
-export default async function tasks (fastify, options) {
+export default async function task (fastify, options) {
   const { task: entity } = fastify.platformatic.entities
   const schemaDefaults = {
     tags: ['tasks'],
