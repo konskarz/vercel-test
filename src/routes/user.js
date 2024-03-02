@@ -40,7 +40,7 @@ export default async function user (fastify, options) {
       return reply.internalServerError()
     }
   })
-  
+
   fastify.post('/login', {
     schema: {
       body: { $ref: 'User#' },
