@@ -27,6 +27,9 @@ export default async function app (fastify, options) {
       }
     }
   })
+  fastify.register(import('@scalar/fastify-api-reference'), {
+    routePrefix: '/docs'
+  })
 
   fastify.register(import('./routes/user.js'))
   fastify.register(async function authenticated (fastify, options) {
