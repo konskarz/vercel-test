@@ -1,6 +1,6 @@
 # Fastify + Vercel & Postgres + Neon
 
-Simple full stack app with Vercel and Neon.
+Simple API with Vercel and Neon
 
 ## Demo
 
