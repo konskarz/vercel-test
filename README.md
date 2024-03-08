@@ -1,21 +1,27 @@
-# Fastify + Vercel
+# Fastify + Vercel & Postgres + Neon
 
-This example shows how to use Fastify with Vercel Functions.
+Simple full stack app with Vercel and Neon.
 
 ## Demo
 
-https://fastify-example.vercel.app/
+https://vercel-test-konskar.vercel.app/
 
-## Running Locallly
-
-```bash
+## Run
+- Install PostgreSQL
+- Create a new Database
+- Create `.env` & `.postgratorrc.json` to store sensitive configuration values
+~~~
 npm i
-npm i -g vercel@latest
-vercel dev
-```
+npx postgrator
+npm run dev
+~~~
 
-## One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/starter/fastify&project-name=fastify&repository-name=fastify)
+## Deploy
+- Log in to Neon account
+- Set up a new project
+- Create a new Database
+- Add tables using the Neon SQL Editor
+- Log in to Vercel account
+- Set up a new project
+- Import Git Repository
+- Set Environment Variables
