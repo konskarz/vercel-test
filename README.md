@@ -2,12 +2,8 @@
 
 Simple API with Vercel and Neon
 
-## Demo
-
-https://vercel-test-konskar.vercel.app/
-
 ## Run
-- Install PostgreSQL
+- Install [PostgreSQL](https://www.postgresql.org/download/)
 - Create a new Database
 - Create `.env` & `.postgratorrc.json` to store sensitive configuration values
 ~~~
@@ -16,12 +12,14 @@ npx postgrator
 npm run dev
 ~~~
 
-## Deploy
-- Log in to Neon account
+## Deploy DB
+- Log in to [Neon](https://neon.tech/) account
 - Set up a new project
 - Create a new Database
 - Add tables using the Neon SQL Editor
-- Log in to Vercel account
+
+## Deploy API
+- Log in to [Vercel](https://vercel.com/) account
 - Set up a new project
 - Import Git Repository
 - Set Environment Variables
