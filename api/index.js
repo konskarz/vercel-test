@@ -1,7 +1,7 @@
 import Fastify from 'fastify'
 
 const app = Fastify({ logger: true })
-app.register(import('../app'))
+app.register(import('../app/index.js'))
 
 export default async function handler(req, reply) {
   await app.ready()
